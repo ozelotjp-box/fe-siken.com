@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name ozelotjp/dotcom-plus
-// @homepageURL https://github.com/ozelotjp/dotcom-plus
+// @homepageURL https://github.com/ozelotjp/dotcom-js
 // @match https://www.ap-siken.com/apkakomon.php
 // ==/UserScript==
 
