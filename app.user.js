@@ -1,7 +1,14 @@
 // ==UserScript==
-// @name ozelotjp/dotcom-plus
+// @name ozelotjp/dotcom-js
 // @homepageURL https://github.com/ozelotjp/dotcom-js
+// @match https://www.itpassportsiken.com/ipkakomon.php
+// @match https://www.sg-siken.com/sgkakomon.php
+// @match https://www.fe-siken.com/fekakomon.php
 // @match https://www.ap-siken.com/apkakomon.php
+// @match https://www.sc-siken.com/sckakomon.php
+// @match https://www.nw-siken.com/nwkakomon.php
+// @match https://www.db-siken.com/dbkakomon.php
+// @match https://www.pm-siken.com/pmkakomon.php
 // ==/UserScript==
 
 $(function(){
