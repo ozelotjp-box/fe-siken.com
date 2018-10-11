@@ -13,9 +13,11 @@
 
 
 ## インストール
-1. Violentmonkey([Chrome][violentmonkey-chrome], [Firefox][violentmonkey-firefox])をダウンロード (他ツールでも問題ないはず)
-2. [app.user.js][app.user.js]を開く
+1. Violentmonkeyをダウンロード ([Chrome][violentmonkey-chrome], [Firefox][violentmonkey-firefox])
+2. app.user.jsを開く ([こちら][app.user.js])
 3. 右上にある **ダウンロード** をクリック
+
+※Violentmonkey以外でも動作するとは思います
 
 
 ## 使い方
