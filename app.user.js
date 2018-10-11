@@ -12,17 +12,20 @@
 // ==/UserScript==
 
 $(function(){
+  // hidden except main column
   $("#headerWrap").remove();
   $("#headerMenuWrap").remove();
   $("#sideCol").remove();
   $("#footerWrap").remove();
   
+  // extend width of main column to 100%
   $("#mainCol").css({
     "display": "block",
     "width": "100%"
   });
-  
+
   $(window).keydown(function(event){
+    // answer
     switch(event.key){
       case "a": $(".selectBtn")[0].click(); break;
       case "i": $(".selectBtn")[1].click(); break;
@@ -39,6 +42,7 @@ $(function(){
         });
     }
     
+    // next page
     if(event.key === "Enter" && $("#kaisetsu").css("display") === "block"){
       $(".submit")[0].click();
     }
