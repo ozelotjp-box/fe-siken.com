@@ -1,4 +1,9 @@
-「＊＊試験ドットコム」の過去問道場を使いやすくするためのJavaScriptです。
+「＊＊試験ドットコム」で勉強している人のためのUserScriptです。
+
+
+## 機能
+- 問題文に集中しやすくなるデザインに変更します
+- キーボードショートカットを追加します
 
 
 ## 対応しているサイト
@@ -11,6 +16,8 @@
 - データベーススペシャリスト ドットコム
 - プロジェクトマネジメント試験ドットコム
 
+これらのサイトの「午前問題」「午後問題」「過去問道場」で適用されます。
+
 
 ## インストール
 1. Violentmonkeyをダウンロード ([Chrome][violentmonkey-chrome], [Firefox][violentmonkey-firefox])
@@ -20,14 +27,18 @@
 ※Violentmonkey以外でも動作するとは思います
 
 
-## 使い方
+## キーボードショートカット
+![](https://img.shields.io/badge/%E5%8D%88%E5%89%8D%E5%95%8F%E9%A1%8C-%E5%AF%BE%E5%BF%9C-green.svg?longCache=true&style=flat)
+![](https://img.shields.io/badge/%E5%8D%88%E5%BE%8C%E5%95%8F%E9%A1%8C-%E9%9D%9E%E5%AF%BE%E5%BF%9C-red.svg?longCache=true&style=flat)
+![](https://img.shields.io/badge/%E9%81%8E%E5%8E%BB%E5%95%8F%E9%81%93%E5%A0%B4-%E5%AF%BE%E5%BF%9C-green.svg?longCache=true&style=flat)
+
 | キーボード | 動作 |
 | :-: | :-: |
-| `a` | `ア` を選択します |
-| `i` | `イ` を選択します |
-| `u` | `ウ` を選択します |
-| `e` | `エ` を選択します |
-| `Enter` | 次の問題に進みます |
+| `a` | `ア` を選択 |
+| `i` | `イ` を選択 |
+| `u` | `ウ` を選択 |
+| `e` | `エ` を選択 |
+| `Enter` | 次の問題に進む |
 
 ※未回答の場合は`Enter`を押しても反応しません
 
