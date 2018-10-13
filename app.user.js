@@ -1,6 +1,9 @@
 // ==UserScript==
 // @name ozelotjp/dotcom-js
+// @version 1.1
+// @author ozelotjp
 // @homepageURL https://github.com/ozelotjp/dotcom-js
+// @downloadURL https://github.com/ozelotjp/dotcom-js/raw/master/app.user.js
 // @match https://www.itpassportsiken.com/ipkakomon.php
 // @match https://www.itpassportsiken.com/kakomon/*/*.html
 // @match https://www.sg-siken.com/sgkakomon.php
