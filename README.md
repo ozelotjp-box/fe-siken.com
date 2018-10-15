@@ -2,8 +2,10 @@
 
 
 ## 機能
-- 問題文に集中しやすくなるデザインに変更します
-- キーボードショートカットを追加します
+- [問題文に集中しやすくなるデザインに変更します][wiki-design]
+- [キーボードショートカットを追加します][wiki-keyboard]
+
+詳しくはリンク先のページをご確認ください。
 
 
 ## 対応しているサイト
@@ -27,23 +29,9 @@
 ※Violentmonkey以外でも動作するとは思います
 
 
-## キーボードショートカット
-![](https://img.shields.io/badge/%E5%8D%88%E5%89%8D%E5%95%8F%E9%A1%8C-%E5%AF%BE%E5%BF%9C-green.svg?longCache=true&style=flat)
-![](https://img.shields.io/badge/%E5%8D%88%E5%BE%8C%E5%95%8F%E9%A1%8C-%E9%9D%9E%E5%AF%BE%E5%BF%9C-red.svg?longCache=true&style=flat)
-![](https://img.shields.io/badge/%E9%81%8E%E5%8E%BB%E5%95%8F%E9%81%93%E5%A0%B4-%E5%AF%BE%E5%BF%9C-green.svg?longCache=true&style=flat)
-
-| キーボード | 動作 |
-| :-: | :-: |
-| `a`, `1` | `ア` を選択 |
-| `i`, `2` | `イ` を選択 |
-| `u`, `3` | `ウ` を選択 |
-| `e`, `4` | `エ` を選択 |
-| `Enter` | 次の問題に進む |
-
-※未回答の場合は`Enter`を押しても反応しません
-
-
 <!-- links -->
+[wiki-design]: https://github.com/ozelotjp/dotcom-js/wiki/%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3
+[wiki-keyboard]: https://github.com/ozelotjp/dotcom-js/wiki/%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%82%AB%E3%83%83%E3%83%88
 [violentmonkey-chrome]: https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag
 [violentmonkey-firefox]: https://addons.mozilla.org/ja/firefox/addon/violentmonkey/
 [app.user.js]: https://github.com/ozelotjp/dotcom-js/raw/master/app.user.js
