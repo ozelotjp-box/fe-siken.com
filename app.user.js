@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name ozelotjp/dotcom-js
-// @version 1.1
+// @version 1.2
 // @author ozelotjp
 // @homepageURL https://github.com/ozelotjp/dotcom-js
 // @downloadURL https://github.com/ozelotjp/dotcom-js/raw/master/app.user.js
@@ -38,15 +38,19 @@ $(function() {
     } else {
       switch (event.key) {
         case "a":
+        case "1":
           $(".selectBtn")[0].click();
           break;
         case "i":
+        case "2":
           $(".selectBtn")[1].click();
           break;
         case "u":
+        case "3":
           $(".selectBtn")[2].click();
           break;
         case "e":
+        case "4":
           $(".selectBtn")[3].click();
           break;
       }
@@ -55,6 +59,10 @@ $(function() {
         case "i":
         case "u":
         case "e":
+        case "1":
+        case "2":
+        case "3":
+        case "4":
           $("html")
             .stop()
             .animate({
