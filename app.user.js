@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name ozelotjp/dotcom-js
-// @version 1.2
+// @name ozelotjp-box/fe-siken.com
+// @version 1.3
 // @author ozelotjp
-// @homepageURL https://github.com/ozelotjp/dotcom-js
-// @downloadURL https://github.com/ozelotjp/dotcom-js/raw/master/app.user.js
+// @homepageURL https://github.com/ozelotjp-box/fe-siken.com
+// @downloadURL https://github.com/ozelotjp-box/fe-siken.com/raw/master/app.user.js
 // @match https://www.itpassportsiken.com/ipkakomon.php
 // @match https://www.itpassportsiken.com/kakomon/*/*.html
 // @match https://www.sg-siken.com/sgkakomon.php
